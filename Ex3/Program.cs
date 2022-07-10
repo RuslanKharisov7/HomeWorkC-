@@ -1,5 +1,5 @@
 ﻿//2. Даны два числа. Показать большее и меньшее число
-
+//Z
 double numberA = new Random().Next();
 double numberB = new Random().Next();
 Console.WriteLine("Первое число");
