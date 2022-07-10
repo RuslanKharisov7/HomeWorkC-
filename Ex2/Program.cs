@@ -2,8 +2,8 @@
 // Я вижу решение данной задачи следующим образом: Заданы два числа и программа должна проверить является ли первое число
 // квадратом второго
 
-double numberA = new Random().Next(-100, 1000);
-double numberB = new Random().Next(-100, 1000);
+double numberA = new Random().Next();
+double numberB = new Random().Next();
 Console.WriteLine(numberA);
 Console.WriteLine(numberB);
 if (numberA/numberB == numberB)
