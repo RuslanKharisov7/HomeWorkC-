@@ -11,4 +11,4 @@ if (numberA % 2==0)
 else
 {
      Console.WriteLine("Является не четным числом");
-}
+} 
