@@ -41,3 +41,7 @@ if (number > 7)
 {
     Console.WriteLine("В неделе только 7 дней");
 }
+if (number < 1)
+{
+    Console.WriteLine("В неделе не может быть меньше одного дня");
+}
