@@ -5,7 +5,7 @@ Console.WriteLine("Введите число N");
 double N = double.Parse(Console.ReadLine()!);
 double M = 1;
 
-while (M<N)
+while (M<=N)
 {
     if (M % 2 ==0)
   Console.WriteLine(M);
