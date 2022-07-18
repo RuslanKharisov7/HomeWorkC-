@@ -8,7 +8,7 @@ int x = number / 100;
 int y = (number / 10) % 10;
 int z = number % 10;
 
-Console.WriteLine($"Вторая цифра введеного числа :{y}");
+Console.WriteLine($"Вторая цифра введеного числа :  {y}");
 
 
 
