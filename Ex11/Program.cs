@@ -1,5 +1,15 @@
-﻿//9.Показать последнюю цифру трёхзначного числа
-Console.WriteLine("Введите трех значное число");
-int number = int.Parse(Console.ReadLine()!);
-int x = number % 10;
-Console.WriteLine($"Полследняя цифра введеного числа: {x}");
+﻿// 11. Дано число из отрезка [10, 99]. Показать наибольшую цифру числа
+
+int number = new Random().Next(10, 100);
+Console.WriteLine(number);
+int x = number/10;
+int y = number % 10;
+if (x>y)
+{
+    Console.WriteLine($"Наибольшее число :  {x}");
+}
+else 
+{
+    Console.WriteLine($"Наибольшее число : {y}");
+}
+
